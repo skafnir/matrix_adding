@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../adding_matrixes.c 
+../multiply_matrixes.c 
 
 OBJS += \
-./adding_matrixes.o 
+./multiply_matrixes.o 
 
 C_DEPS += \
-./adding_matrixes.d 
+./multiply_matrixes.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
