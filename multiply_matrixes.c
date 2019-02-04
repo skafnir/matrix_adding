@@ -14,8 +14,10 @@ int main()
     while (column1 != row2)
     {
         printf("Error! column of first matrix not equal to row of second.\n\n");
+
         printf("Enter rows and column for first matrix: ");
         scanf("%d %d", &row1, &column1);
+
         printf("Enter rows and column for second matrix: ");
         scanf("%d %d",&row2, &column2);
     }
